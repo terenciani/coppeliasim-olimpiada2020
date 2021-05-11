@@ -28,7 +28,7 @@ Ministrado pelos professores Ayslan Possebom e Marcelo Terenciani.
    2. Adicione a bliblioteca **MeuRoboCoppeliaSim.jar** no Build Path do projeto.
       - No Eclipse IDE: Clique com o botão direito sobre o projeto, escolha a opção "_Properties_". No item "_Java Build Path_", na guia "_Libraries_", clique sobre o item "_Classpath_", vá até o botão "_Add External JARs_". Abrirá uma caixa de diálogo, selecione a "_MeuRoboCoppeliaSim.jar_" que está dentro da pasta lib (no diretório onde fez o download).
    3. Adicione a ddl **remoteApiJava.dll** no Build Path do projeto.
-      - No Eclipse IDE: Clique com o botão direito sobre o projeto, escolha a opção "_Properties_". No item "_Java Build Path_", na guia "_Source_", clique sobre o item "_Native library location_", vá até o botão "_Add Folder_". Abrirá uma caixa de diálogo, selecione a "_remoteApiJava.dll_" que está dentro da pasta lib (no diretório onde fez o download).
+      - No Eclipse IDE: Clique com o botão direito sobre o projeto, escolha a opção "_Properties_". No item "_Java Build Path_", na guia "_Source_", duplo clique sobre o item "_Native library location_", vá até o botão "_External Folder_". Abrirá uma caixa de diálogo, selecione a "_remoteApiJava.dll_" que está dentro da pasta lib (no diretório onde fez o download).
         > **NOTA:** Opcionalmente a dll pode ser adicionada diretamente à pasta system32 do windows, eliminando este passo.
 
 3. No CoppeliaSim Edu:
